@@ -7,7 +7,7 @@ import Navbar from './components/Navbar'
 const App = () => {
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/krekrizer',
     element:<><Navbar/><Home/></>
   },
   {
