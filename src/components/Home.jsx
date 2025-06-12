@@ -7,7 +7,7 @@ const Home = () => {
   const [input, setInput] = useState('');
   const [data, setData] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const API_KEY = import.meta.env.HUGGING_FACE_TOKEN;
+  const API_KEY = import.meta.env.VITE_HUGGING_FACE_TOKEN;
 const countChar = (text) => {
   if (!text) return 0;
   return text.length;
